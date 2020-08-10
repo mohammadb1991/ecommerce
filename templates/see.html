@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block c %}
+    <div class="card">
+    {% for i in u %}
+<a href="{% url 'detail' i.id %}" class="card-body">{{ i.name }}<a/>
+<class="card-body">{{ i.family }}</p>
+    {% endfor %}
+    </div>
+{% endblock %}
+<h1>hello everyone</h1>
+{% block d %}
+    <h1>
+    shut up everyone
+    </h1>
+{% endblock %}
